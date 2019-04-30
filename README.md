@@ -68,6 +68,94 @@ $console->boot($kernel);
 $console->run();
 ```
 
+## Commands
+
+Commands should be defined in classes extending the `Anddye\Console\Commands\AbstractCommand` class. Here is a basic usage example of a command:
+
+```php
+<?php
+
+namespace App\Commands;
+
+use Anddye\Console\Commands\AbstractCommand;
+use Symfony\Component\Console\Input\InputArgument;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
+use Symfony\Component\Console\Output\OutputInterface;
+
+class SayHelloCommand extends AbstractCommand
+{
+    /**
+     * Sets an array of argument to add to the command.
+     *
+     * @return array
+     */
+    public function arguments(): array
+    {
+        return [
+            ['name', InputArgument::REQUIRED, 'Your name.'],
+        ];
+    }
+
+    /**
+     * Sets the description for the command.
+     *
+     * @return string
+     */
+    public function description(): string
+    {
+        return 'Prints "Hello" and your name for a specific number of times.';
+    }
+
+    /**
+     * The body of the command.
+     *
+     * @param InputInterface  $input
+     * @param OutputInterface $output
+     *
+     * @return mixed
+     */
+    public function handle(InputInterface $input, OutputInterface $output)
+    {
+        for ($i = 0; $i < $input->getOption('repeat'); ++$i) {
+            $this->info('Hello '.$input->getArgument('name'));
+        }
+    }
+
+    /**
+     * Sets the help for the command.
+     *
+     * @return string
+     */
+    public function help(): string
+    {
+        return '';
+    }
+
+    /**
+     * Sets the name of the command.
+     *
+     * @return string
+     */
+    public function name(): string
+    {
+        return 'say:hello';
+    }
+
+    /**
+     * Sets an array of options to add to the command.
+     *
+     * @return array
+     */
+    public function options(): array
+    {
+        return [
+            ['repeat', 'r', InputOption::VALUE_OPTIONAL, 'Times to repeat the output.', 1],
+        ];
+    }
+}
+```
+
 ## Support
    
 If you are having any issues with this library, then please feel free to contact me on [Twitter](https://twitter.com/andyer92).
