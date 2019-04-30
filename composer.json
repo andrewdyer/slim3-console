@@ -1,6 +1,6 @@
 {
     "name": "andrewdyer/slim3-console",
-    "description": "",
+    "description": "Command line interface for your Slim Framework application.",
     "keywords": ["php", "php7", "slim", "slim-3", "slim-framework", "console", "command"],
     "homepage": "https://github.com/andrewdyer/slim3-console",
     "authors": [
