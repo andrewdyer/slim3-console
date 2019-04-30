@@ -1,5 +1,13 @@
 # Slim3 Console
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d2fd0d48d90e4c829d3228b7029ae244)](https://www.codacy.com/app/andrewdyer/slim3-console?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=andrewdyer/slim3-console&amp;utm_campaign=Badge_Grade)
+[![Latest Stable Version](https://poser.pugx.org/andrewdyer/slim3-console/v/stable)](https://packagist.org/packages/andrewdyer/slim3-console)
+[![Total Downloads](https://poser.pugx.org/andrewdyer/slim3-console/downloads)](https://packagist.org/packages/andrewdyer/slim3-console)
+[![Daily Downloads](https://poser.pugx.org/andrewdyer/slim3-console/d/daily)](https://packagist.org/packages/andrewdyer/slim3-console)
+[![Monthly Downloads](https://poser.pugx.org/andrewdyer/slim3-console/d/monthly)](https://packagist.org/packages/andrewdyer/slim3-console)
+[![Latest Unstable Version](https://poser.pugx.org/andrewdyer/slim3-console/v/unstable)](https://packagist.org/packages/andrewdyer/slim3-console)
+[![License](https://poser.pugx.org/andrewdyer/slim3-console/license)](https://packagist.org/packages/andrewdyer/slim3-console)
+
 Command line interface for your [Slim Framework](https://www.slimframework.com) application.
 
 ## License
