@@ -16,7 +16,7 @@ Licensed under MIT. Totally free for private or commercial projects.
 
 ## Installation
 
-```
+```text
 composer require andrewdyer/slim3-console
 ```
 
@@ -166,5 +166,5 @@ If you're using this package, I'd love to hear your thoughts!
 
 ## Useful Links
 
-* [Slim Framework](https://www.slimframework.com)
-* [The Console Component](https://symfony.com/doc/current/components/console.html)
+*   [Slim Framework](https://www.slimframework.com)
+*   [The Console Component](https://symfony.com/doc/current/components/console.html)
