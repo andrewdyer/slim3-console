@@ -7,8 +7,6 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Interface CommandInterface.
- *
- * @author Andrew Dyer <andrewdyer@outlook.com>
  */
 interface CommandInterface
 {

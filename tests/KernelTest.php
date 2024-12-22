@@ -9,8 +9,6 @@ use PHPUnit\Framework\TestCase;
 
 /**
  * Class KernelTest.
- *
- * @author Andrew Dyer <andrewdyer@outlook.com>
  */
 class KernelTest extends TestCase
 {

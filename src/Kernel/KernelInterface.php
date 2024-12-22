@@ -4,8 +4,6 @@ namespace Anddye\Console\Kernel;
 
 /**
  * Interface KernelInterface.
- *
- * @author Andrew Dyer <andrewdyer@outlook.com>
  */
 interface KernelInterface
 {

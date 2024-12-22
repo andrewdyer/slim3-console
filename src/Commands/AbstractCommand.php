@@ -9,8 +9,6 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class AbstractCommand.
- *
- * @author Andrew Dyer <andrewdyer@outlook.com>
  */
 abstract class AbstractCommand extends Command implements CommandInterface
 {

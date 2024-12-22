@@ -9,8 +9,6 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class SayHelloCommand.
- *
- * @author Andrew Dyer <andrewdyer@outlook.com>
  */
 class SayHelloCommand extends AbstractCommand
 {

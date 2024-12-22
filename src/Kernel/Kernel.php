@@ -4,8 +4,6 @@ namespace Anddye\Console\Kernel;
 
 /**
  * Class Kernel.
- *
- * @author Andrew Dyer <andrewdyer@outlook.com>
  */
 class Kernel implements KernelInterface
 {

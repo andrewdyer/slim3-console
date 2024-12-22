@@ -8,8 +8,6 @@ use Symfony\Component\Console\Application;
 
 /**
  * Class Console.
- *
- * @author Andrew Dyer <andrewdyer@outlook.com>
  */
 class Console extends Application
 {

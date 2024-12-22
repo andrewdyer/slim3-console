@@ -7,8 +7,6 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class SayGoodbyeCommand.
- *
- * @author Andrew Dyer <andrewdyer@outlook.com>
  */
 class SayGoodbyeCommand extends AbstractCommand
 {
